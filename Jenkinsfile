@@ -19,8 +19,6 @@ pipeline {
             }
         }
 
-    }
-
     stage('Build Production Image') {
             steps {
                 echo 'Starting to build docker image'
@@ -31,5 +29,5 @@ pipeline {
                 }
             }
         }
-        
+    }   
 }
